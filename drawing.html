@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Drawing</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <center>
+            <h1>Drawing</h1>
+            <hr>
+            <canvas style="border: 35px; border-color: black;" id="my_canvas" width="1000" height="600"></canvas>
+            <h3>Shapes</h3>
+            <h4>Default Shape - </h4>
+            <br>
+            <span>
+                <button id="circle" onclick="circle();">Circle</button>
+                <button id="oval" onclick="oval();">Oval</button>
+                <button id="triangle" onclick="triangle();">Triangle</button>
+                <button id="square" onclick="square();">Square</button>
+                <button id="rectangle" onclick="rectangle();">Rectangle</button>
+            </span>
+            <br>
+            <h3>Color Selector</h3>
+            <h4>Default Color - Black</h4>
+            <br>
+            <h4>Click on the box below to see all kinds of colors.</h4>
+            <input type="color" id="color" placeholder="Type Color Name Here">
+            <br>
+            <h3>Line Width</h3>
+            <h4>Default Width - 2</h4>
+            <input type="number" id="line_width" placeholder="Type Line Width Here">
+            <br>
+            <br>
+            <button id="clear" onclick="clearArea();">Clear</button>
+        </center>
+    </div>
+    <script src="drawing.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body
+{
+    background-color: darkorange;
+}
+
+#my_canvas
+{
+    width: 1000px;
+    height: 600px;
+    border-width: 50px;
+    border-color: black;
+}
+
+h1
+{
+    font-family:cursive;
+    font-weight:bolder;
+    color: rgb(0, 0, 0);
+    font-size:50px;
+}
+
+h3
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-weight: bolder;
+    font-size:40px;
+}
+
+button
+{
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 200px;
+    margin: 20px;
+    color: black;
+}
+
+#clear
+{
+    border-radius: 0px;
+    background-color: aqua;
+    color: black;
+    border-color: rgb(52, 21, 228);
+    border-width: 5px;
+}
+
+input
+{
+    border-radius: 150px;
+    font-size: 20px;
+}
+

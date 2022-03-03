@@ -1,0 +1,20 @@
+#next
+{
+    background-color: chartreuse;
+    font-size: 50px;
+    border-radius: 150px;
+    margin: 50px;
+    color: black;
+}
+
+#title_1
+{
+    color: rgb(28, 41, 153);
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
+body
+{
+    background-color: coral;
+}
